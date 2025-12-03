@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>thehood.com — Premium Domain For Sale</title>
+  <meta name="description" content="thehood.com — premium domain ideal for hyperlocal news, neighborhood social platforms, local commerce, community marketplaces and urban culture brands. Submit an offer to purchase." />
+  <meta property="og:title" content="thehood.com — Premium Domain For Sale" />
+  <meta property="og:description" content="thehood.com — premium domain for hyperlocal news, neighborhood platforms, community marketplaces and urban lifestyle brands. Contact domain@thehood.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1f2a2d" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:980px;
+      --content-width:720px;
+      --panel: rgba(255,255,255,0.97);
+      --muted: #9aa4a7;
+      --accent: #f05a28; /* warm accent */
+      --text: #0b1b1e;
+      --logo-bg: linear-gradient(135deg,#2b2f33,#1b1e20);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --radius:14px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      padding:32px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      min-height:100vh;
+      color: #eef6f6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+
+      /* Gritty urban background: dark brick + subtle grime + neon glows */
+      background-color:#111315;
+      background-image:
+        /* distant neon / ambient lights */
+        radial-gradient(ellipse at 10% 20%, rgba(240,90,40,0.07) 0%, transparent 12%),
+        radial-gradient(ellipse at 80% 30%, rgba(30,150,255,0.05) 0%, transparent 14%),
+        /* horizontal wet-street sheen */
+        linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.08)),
+        /* subtle brick pattern using linear-gradients */
+        linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px),
+        linear-gradient(180deg, #1a1c1d 0%, #101213 100%);
+      background-size: 60% 40%, 50% 30%, 100% 100%, 24px 12px, 100% 100%;
+      background-repeat: no-repeat, no-repeat, repeat, repeat, no-repeat;
+      background-position: 5% 10%, 90% 30%, 0 0, 0 0, 0 0;
+    }
+
+    /* faint overlay of graffiti strokes (non-offensive abstract lines) */
+    .graffiti {
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:0.06;
+      background-image:
+        radial-gradient(circle at 12% 20%, rgba(255,255,255,0.08) 0.6%, transparent 3%),
+        linear-gradient(120deg, rgba(255,80,0,0.14) 0%, rgba(255,200,80,0.02) 25%, transparent 40%),
+        linear-gradient(200deg, rgba(60,180,255,0.10) 0%, transparent 30%);
+      mix-blend-mode: screen;
+      z-index:0;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      border-radius:16px;
+      padding:28px;
+      position:relative;
+      z-index:1;
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,250,0.99));
+      color:var(--text);
+      box-shadow: 0 24px 64px rgba(2,6,8,0.6);
+      border: 1px solid rgba(2,6,8,0.08);
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:22px;
+    }
+
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:68px;
+      height:68px;
+      border-radius:12px;
+      background: var(--logo-bg);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:800;
+      font-size:20px;
+      letter-spacing:0.6px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4), inset 0 -6px 16px rgba(255,255,255,0.03);
+      flex-shrink:0;
+      border:2px solid rgba(0,0,0,0.18);
+    }
+
+    h1{ margin:0; font-size:26px; color:var(--text); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:15px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:26px;
+      align-items:start;
+    }
+
+    .panel{
+      background: var(--panel);
+      padding:20px;
+      border-radius:12px;
+      box-shadow: 0 8px 26px rgba(6,10,12,0.06);
+      border:1px solid rgba(6,10,12,0.04);
+      max-width:var(--content-width);
+    }
+
+    .hero {
+      margin-bottom:14px;
+      padding:14px 16px;
+      border-radius:10px;
+      background: linear-gradient(90deg, rgba(10,10,10,0.02), rgba(10,10,10,0.01));
+      border:1px solid rgba(6,10,12,0.03);
+      color:#3b3f41;
+    }
+
+    h2{ margin-top:0; font-size:20px; color:var(--text); }
+    .features ul{ margin:0; padding-left:18px; color:#556066; }
+    .features li{ margin-bottom:10px; }
+
+    .cta-row{ display:flex; gap:12px; margin-top:16px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:700;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent), #ff8a4a);
+      color:#081217;
+      box-shadow: 0 10px 30px rgba(240,90,40,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(6,10,12,0.06);
+      color:var(--muted);
+    }
+
+    .price { margin-top:12px; font-weight:700; color:var(--text); font-size:16px; }
+    .muted-small { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    /* contact card (sticky on desktop) */
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.96));
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(6,10,12,0.04);
+      box-shadow: 0 8px 26px rgba(6,10,12,0.06);
+      max-width:360px;
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--text); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:700;
+      color:var(--accent);
+      word-break: normal;
+      font-size:0.98rem;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(6,10,12,0.06);
+      background:#fff;
+      color:var(--text);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    /* small responsive */
+    @media (max-width:900px){
+      .grid{ grid-template-columns:1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:20px; }
+      .logo{ width:58px; height:58px; }
+      h1{ font-size:22px; }
+    }
+  </style>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "url": "https://thehood.com",
+        "name": "thehood.com",
+        "description": "thehood.com — premium domain for hyperlocal platforms, neighborhood communities, local marketplaces, and urban-culture brands."
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "domain@thehood.com"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="graffiti" aria-hidden="true"></div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">TH</div>
+        <div>
+          <h1 id="main-heading">thehood.com</h1>
+          <p class="lead">Premium domain for neighborhood platforms, hyperlocal news, local commerce and urban lifestyle brands.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@thehood.com" style="color:inherit;text-decoration:none">domain@thehood.com</a></div>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <article class="panel" aria-labelledby="why-title">
+          <h2 id="why-title">Why thehood.com?</h2>
+          <p class="lead">A concise, evocative name that speaks to local communities, street-level commerce, neighborhood news and culture. TheHood.com is ideal for apps and services that connect residents, spotlight local businesses, publish hyperlocal reporting, or build community marketplaces.</p>
+
+          <div class="hero" role="note" aria-live="polite">
+            <p>Built for founders and publishers focused on the block-level economy: local listings, incident reporting, hyperlocal advertising, community events, and neighborhood social networks.</p>
+          </div>
+
+          <div class="features" style="margin-top:8px">
+            <ul>
+              <li>Memorable two-word brand with strong local intent</li>
+              <li>Fits newsrooms, community platforms, marketplace apps and local advertising</li>
+              <li>Great for urban culture, events, guides and micro-commerce</li>
+            </ul>
+          </div>
+
+          <div class="cta-row" role="group" aria-label="Actions">
+            <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+            <a class="btn btn-ghost" href="mailto:domain@thehood.com?subject=Domain%20Offer%20-%20thehood.com">Email Now</a>
+          </div>
+
+          <div class="price">Domain: thehood.com</div>
+          <div class="muted-small">Serious offers only. Transfer via escrow recommended for safety and trust.</div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">thehood.com supports brands and products that serve block-level audiences — from resident networks and business directories to local newsrooms and urban lifestyle publishers. The name is direct, brandable, and optimized for word-of-mouth and place-based discovery.</p>
+
+          <ul style="color:#556066;margin-top:12px">
+            <li>Great for community platforms, neighborhood guides and local marketplaces</li>
+            <li>Useful for local advertising, listings, events, and hyperlocal reporting</li>
+            <li>Transfer-ready — we use escrow to ensure a secure transaction</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form will open your email client with the details prefilled. Or email <a href="mailto:domain@thehood.com" class="contact-email">domain@thehood.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for thehood.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@thehood.com" style="color:var(--accent)" class="contact-email">domain@thehood.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 thehood.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // Compose a mailto: URL from form contents to open the user's email client.
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - thehood.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from thehood.com offer form`;
+
+      const body = encodeURIComponent(bodyText);
+      const mailto = `mailto:domain@thehood.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+    }
+
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input').focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - thehood.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for thehood.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@thehood.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
